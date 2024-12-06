@@ -1,0 +1,56 @@
+# Pytest cache
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Dependency management
+pip-lock.txt
+poetry.lock
+
+# Build artifacts
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python egg metadata
+*.egg-info/
+*.egg
+
+# mypy
+.mypy_cache/
+
+# pytest-html report
+report.html
